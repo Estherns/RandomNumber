@@ -1,0 +1,7 @@
+import random
+
+names = list(range(1, 71))
+
+# get 7 random numbers
+candidates = random.sample(names, k=7)
+print(candidates)
